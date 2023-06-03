@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #232f24 16.62%, #05800f 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+}
+.cabecalho-logo{
+    height: 100px;
+    
+}
+.cabecalho-menu-ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 20px;
+    flex-direction: row;    
+}
+.cabecalho-menu{
+    color: white;
+    border-radius: 5px;
+}
+.cabecalho-menu:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+
+.conteudo{
+    border-top: 0.4px solid white;
+    margin-bottom: 20px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.conteudo-principal-titulo{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.conteudo-principal-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.conteudo-principal-botao{
+    border: none;
+    background-color: rgb(209, 241, 206);
+    width: 150px;
+    height: 30px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2F2325;
+}
+.conteudo-principal-botao:hover{
+    background-color: yellowgreen;
+}
+.conteudo-principal-imagem{
+    height: 300px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin: 30px auto;
+}
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 25px auto;
+}
+.conteudo-secundario-escrito-titulo{
+    border-top: 0.4px solid white;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.conteudo-secundario-escrito-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.rodape{
+    border-top: 0.4px solid white;
+    padding-bottom: 80px ;
+    padding-top: 20px
+}
+.rodape-imagem{
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}

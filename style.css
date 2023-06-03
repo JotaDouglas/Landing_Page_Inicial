@@ -49,6 +49,7 @@ body{
 .conteudo-principal{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 50px;
@@ -61,9 +62,12 @@ body{
 .conteudo-principal-titulo{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 .conteudo-principal-paragrafo{
     font-family: 'Roboto', sans-serif;
+    text-align:center;
     margin-bottom: 20px;
 }
 .conteudo-principal-botao{
@@ -77,6 +81,7 @@ body{
     font-weight: bold;
     font-size: 14px;
     color: #2F2325;
+    margin: 0 auto;
 }
 .conteudo-principal-botao:hover{
     background-color: yellowgreen;

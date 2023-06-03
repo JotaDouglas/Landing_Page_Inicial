@@ -33,9 +33,10 @@ body{
 .cabecalho-menu{
     color: white;
     border-radius: 5px;
+    padding: 5px;
 }
 .cabecalho-menu:hover{
-    background-color: rgba(255, 255, 255, 0.685);
+    background-color: rgba(255, 255, 255, 0.411);
 }
 
 
